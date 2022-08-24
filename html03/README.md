@@ -1,0 +1,2 @@
+# 03 - Entregável 03 - Fundamentos Web
+Descrição: Nesse entregável vocês devem implementar ao projeto de vocês, códigos JavaScript, utilizando os conceitos de DOM, enventos e funções. Siga as instruções dos videos, ao finalizar entregue aqui o link do site no GitHub.
