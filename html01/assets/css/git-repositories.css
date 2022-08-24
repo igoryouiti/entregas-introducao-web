@@ -1,3 +1,9 @@
+p {
+    text-align: center;
+    font-size: 2.0rem;
+    padding: 6px;
+}
+
 .main{
        width: 100%;
        height: 100%;
@@ -5,11 +11,64 @@
        padding: 2rem;
 
        display: flex;
-       flex-direction: row;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
 }
 
+.main article h1{
+    font-size: 3.2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
 
+.main section h2 {
+    font-size: 2.8rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.github{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 .main a img {
     width: 3.2rem;
 }
+
+.repository{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.list{
+    text-decoration: none;
+    list-style: none;
+}
+
+.list li a{
+    font-size: 2.8rem;
+}
+
+.contato{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label{
+    font-size: 1.6rem;
+}
+
